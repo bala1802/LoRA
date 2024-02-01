@@ -32,6 +32,3 @@ def train(data_loader, model, epochs):
             data_iterator.set_postfix(loss=average_loss)
             loss.backward()
             optimizer.step()
-
-if __name__ == "__main__":
-    print("executed")
