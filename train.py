@@ -18,8 +18,8 @@ def train(data_loader, model, epochs):
 
         for data in data_iterator:
             x, y = data
-            x = x.to(config.device)
-            y = y.to(config.device)
+            x = x.to(config.DEVICE)
+            y = y.to(config.DEVICE)
 
             optimizer.zero_grad()
             output = model(x.view(-1, config.INPUT_DIMENSION))
