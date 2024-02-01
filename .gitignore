@@ -160,3 +160,4 @@ cython_debug/
 #.idea/
 
 LoRA.ipynb
+test.py
