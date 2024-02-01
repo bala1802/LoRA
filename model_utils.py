@@ -13,3 +13,12 @@ def extract_weights(model):
         weights_dict[name] = param.clone().detach()
     
     return weights_dict
+
+def count_total_parameters(model_layers):
+    original_parameters_count = 0
+    for index, layer in enumerate(model_layers):
+        original_parameters_count += layer.weight.nelement() + layer.bias.nelement()
+        print(f'Layer {index+1}: W (Matrix): {layer.weight.shape} + Bias : {layer.bias.shape}')
+    return original_parameters_count
+
+print("Hello world")
