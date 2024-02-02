@@ -159,6 +159,6 @@ cython_debug/
 #  option (not recommended) you can uncomment the following to ignore the entire idea folder.
 #.idea/
 
-LoRA.ipynb
 data/
-LoRA2.ipynb
+deprecated_LoRA2.ipynb
+deprecated_LoRA1.ipynb
