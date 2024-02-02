@@ -83,7 +83,7 @@ The LoRA_Parameterization model is initialized with two matrices, namely A and B
 
 ### Prepare dataset for the Fine-tuning
 
-For the purposes of this demonstration, the digit 2 is identified as a specific domain of interest within the dataset. Notably, observations reveal that the performance of the digit 2 is comparatively lower than that of other digits. In preparation for fine-tuning, a specialized dataset is curated, exclusively containing images of the digit 2.
+For the purposes of this demonstration, the digit 2 is identified as a specific domain of interest within the dataset. Notably, [observations](https://github.com/bala1802/LoRA/blob/main/README.md#testing-logs) reveal that the performance of the digit 2 is comparatively lower than that of other digits. In preparation for fine-tuning, a specialized dataset is curated, exclusively containing images of the digit 2.
 
 
 
