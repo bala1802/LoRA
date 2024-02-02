@@ -56,4 +56,6 @@ The LoRA_Parameterization model is initialized with two matrices, namely A and B
 
 <img width="985" alt="image" src="https://github.com/bala1802/LoRA/assets/22103095/0685e4b3-5b3d-4b17-ae69-f682d1373251">
 
+* During the initialization phase, `Matrix A` is endowed with values drawn from a Gaussian distribution, imparting a degree of randomness to the matrix. Concurrently, `Matrix B` is initialized with zeros. This deliberate configuration is designed to enforce the condition that the product of matrices `B` and `A`, represented as $∆W = BA$, attains a zero value at the outset of the training process. 
+
 
