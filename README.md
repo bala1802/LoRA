@@ -15,7 +15,8 @@ The Neural Network architecture utilized for this demonstration comprises 2 mill
 
 ### Model Summary
 
-![image](https://github.com/bala1802/LoRA/assets/22103095/be629bc2-f99c-4fc0-a8b1-81c72635ade5)
+![image](https://github.com/bala1802/LoRA/assets/22103095/66e55b72-66a4-4fd0-adbd-225b3f26e95b)
+
 
 ## Model Training
 
