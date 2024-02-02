@@ -70,5 +70,10 @@ The LoRA_Parameterization model is initialized with two matrices, namely A and B
 
 ![image](https://github.com/bala1802/LoRA/assets/22103095/01670dc8-82f4-4a54-8abf-4bcd1c526516)
 
+* The originally model encompasses a total of `2,807,010` parameters. $weights + bias$ (2804000 + 3010)
+* The LoRA process results in the updating of `6,794` parameters. This increment represents a `0.24%` increase in the total number of parameters compared to the original model.
+* Post the integration of the LoRA technique, the model undergoes modifications, resulting in a revised parameter count of `2,813,804 (2,807,010 + 6,794)`. This figure encapsulates the cumulative impact of the LoRA process on the overall parameterization of the model.
+
+
 
 
