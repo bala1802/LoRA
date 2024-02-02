@@ -68,4 +68,7 @@ The LoRA_Parameterization model is initialized with two matrices, namely A and B
 
 ### Quantitaive assessment of Parameters introduced by `LoRA`
 
+![image](https://github.com/bala1802/LoRA/assets/22103095/01670dc8-82f4-4a54-8abf-4bcd1c526516)
+
+
 
