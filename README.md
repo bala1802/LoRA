@@ -53,3 +53,7 @@ Total number of parameters: `2,807,010`
 ## LoRA Parameterization
 
 The LoRA_Parameterization model is initialized with two matrices, namely A and B. Matrix B is characterized by the shape (d, rank), where 'd' represents the size of the input features, and 'rank' signifies the specified rank, a parameter subject to variation in experimental settings. On the other hand, Matrix A is defined with a shape of (rank, k), where 'k' denotes the size of the output features.
+
+<img width="985" alt="image" src="https://github.com/bala1802/LoRA/assets/22103095/0685e4b3-5b3d-4b17-ae69-f682d1373251">
+
+
