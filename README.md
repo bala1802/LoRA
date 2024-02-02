@@ -1,4 +1,4 @@
-# LoRA
+![image](https://github.com/bala1802/LoRA/assets/22103095/9e632ef3-36b1-45de-8787-dfc4038db6ec)# LoRA
 PyTorch implementation demonstrating Low Rank Adaption (LoRA) in Neural Networks, for efficient model compression and fine-tuning on domain specific tasks
 
 ## Purpose
@@ -57,5 +57,13 @@ The LoRA_Parameterization model is initialized with two matrices, namely A and B
 <img width="985" alt="image" src="https://github.com/bala1802/LoRA/assets/22103095/0685e4b3-5b3d-4b17-ae69-f682d1373251">
 
 * During the initialization phase, `Matrix A` is endowed with values drawn from a Gaussian distribution, imparting a degree of randomness to the matrix. Concurrently, `Matrix B` is initialized with zeros. This deliberate configuration is designed to enforce the condition that the product of matrices `B` and `A`, represented as $∆W = BA$, attains a zero value at the outset of the training process. 
+
+* After making adjustments to the model's parameters $∆W * x$, the result is multiplied by $α/r$; where $α$ is a constant related to the adjustments.
+
+* When using the Adam optimization method, choosing $α$ is similar to choosing the learning rate, especially if the initial values are properly adjusted.
+
+* To simplify things, the $α$ is set to the first value of $r$, that is tried and not changed afterwards.
+
+* This scaling process, helps avoiding the need to fine-tune other parameters when experimented with different values of $r$
 
 
