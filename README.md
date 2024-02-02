@@ -66,4 +66,6 @@ The LoRA_Parameterization model is initialized with two matrices, namely A and B
 
 * This scaling process, helps avoiding the need to fine-tune other parameters when experimented with different values of $r$
 
+### Quantitaive assessment of Parameters introduced by `LoRA`
+
 
