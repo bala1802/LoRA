@@ -30,7 +30,7 @@ The model training is executed for a single epoch, utilizing the Cross Entropy l
 
 To prove that the Original weights are not distrubed, they are preserved through cloning them. This preservation facilitates subsequent validation, demonstrating that fine-tuning with Low Rank Adaptation did not induce any alteration to the original weights.
 
-![alt text](WeightPreservation.drawio.png)
+![alt text](Visuals/WeightPreservation.drawio.png)
 
 ## Model Testing
 
@@ -41,7 +41,7 @@ Accuracy : 0.21`
 
 ![image](https://github.com/bala1802/LoRA/assets/22103095/b2f582e8-388c-4295-8477-cde849f27ca1)
 
-![alt text](Wrongly_Predicted_Digits.png)
+![alt text](Visuals/Wrongly_Predicted_Digits.png)
 
 
 ## Trained Model Observation
@@ -95,10 +95,10 @@ For the purposes of this demonstration, the digit 2 is identified as a specific 
 
 The fine-tuning process is exclusively applied to the dataset containing images of the digit `2`, with the anticipation that this targeted refinement will lead to improved performance and a reduction in error.
 
-![alt text](<fine_tuning _result.png>)
+![alt text](<Visuals/fine_tuning _result.png>)
 
 Comparitive analysis is conducted to assess the performance of the the digit `2` both before and after applying the LoRA technique.
 
-![alt text](comparitive_analysis.png)
+![alt text](Visuals/comparitive_analysis.png)
 
 The above comparitive analysis' visual representation proves that fine-tuning the model, with the addition of a minimal number of parameters through Low Rank Adaptation (LoRA), results in a notable enhancement in performance for domain-specific tasks.
