@@ -41,7 +41,7 @@ Accuracy : 0.21`
 
 ![image](https://github.com/bala1802/LoRA/assets/22103095/b2f582e8-388c-4295-8477-cde849f27ca1)
 
-<iframe src="Wrongly_Predicted_Digits.html" width="800" height="600"></iframe>
+![alt text](Wrongly_Predicted_Digits.png)
 
 
 ## Trained Model Observation
