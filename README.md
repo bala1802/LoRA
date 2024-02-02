@@ -91,6 +91,13 @@ During the fine-tuning stage, a critical approach is employed whereby the origin
 
 For the purposes of this demonstration, the digit 2 is identified as a specific domain of interest within the dataset. Notably, [observations](https://github.com/bala1802/LoRA/blob/main/README.md#testing-logs) reveal that the performance of the digit 2 is comparatively lower than that of other digits. In preparation for fine-tuning, a specialized dataset is curated, exclusively containing images of the digit 2.
 
+### Result
+
+The fine-tuning process is exclusively applied to the dataset containing images of the digit `2`, with the anticipation that this targeted refinement will lead to improved performance and a reduction in error.
+
+![alt text](<fine_tuning _result.png>)
+
+Comparitive analysis is conducted to assess the performance of the the digit `2` both before and after applying the LoRA technique.
 
 
 
