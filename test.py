@@ -27,8 +27,6 @@ def test(model, data_loader):
     for i in range(len(wrong_predictions_count)):
         print(f"Wrong Counts for the digit {i} : {wrong_predictions_count[i]}")
 
-print("executed")
-
 
 
 
