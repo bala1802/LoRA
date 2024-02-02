@@ -79,7 +79,8 @@ The LoRA_Parameterization model is initialized with two matrices, namely A and B
 
 ## Model Fine-tuning
 
-![Finetuning drawio](https://github.com/bala1802/LoRA/assets/22103095/c620d68f-e4e7-4c68-a596-e57cfd15038e)
+![Finetuning drawio-2](https://github.com/bala1802/LoRA/assets/22103095/df7ade0c-c739-42cd-90bb-c8ccaf1983cd)
+
 
 
 
