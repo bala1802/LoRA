@@ -99,5 +99,5 @@ The fine-tuning process is exclusively applied to the dataset containing images 
 
 Comparitive analysis is conducted to assess the performance of the the digit `2` both before and after applying the LoRA technique.
 
-
+![alt text](comparitive_analysis.png)
 
