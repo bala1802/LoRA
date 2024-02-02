@@ -52,6 +52,9 @@ Total number of parameters: `2,807,010`
 
 ## LoRA Parameterization
 
+![Parameterization drawio](https://github.com/bala1802/LoRA/assets/22103095/c10ae65c-a95f-45e3-aa65-d23dfd84dc80)
+
+
 The LoRA_Parameterization model is initialized with two matrices, namely A and B. Matrix B is characterized by the shape (d, rank), where 'd' represents the size of the input features, and 'rank' signifies the specified rank, a parameter subject to variation in experimental settings. On the other hand, Matrix A is defined with a shape of (rank, k), where 'k' denotes the size of the output features.
 
 <img width="985" alt="image" src="https://github.com/bala1802/LoRA/assets/22103095/0685e4b3-5b3d-4b17-ae69-f682d1373251">
@@ -73,6 +76,10 @@ The LoRA_Parameterization model is initialized with two matrices, namely A and B
 * The originally model encompasses a total of `2,807,010` parameters. $weights + bias$ (2804000 + 3010)
 * The LoRA process results in the updating of `6,794` parameters. This increment represents a `0.24%` increase in the total number of parameters compared to the original model.
 * Post the integration of the LoRA technique, the model undergoes modifications, resulting in a revised parameter count of `2,813,804 (2,807,010 + 6,794)`. This figure encapsulates the cumulative impact of the LoRA process on the overall parameterization of the model.
+
+## Model Fine-tuning
+
+![Finetuning drawio](https://github.com/bala1802/LoRA/assets/22103095/c620d68f-e4e7-4c68-a596-e57cfd15038e)
 
 
 
