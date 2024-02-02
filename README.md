@@ -81,7 +81,9 @@ The LoRA_Parameterization model is initialized with two matrices, namely A and B
 
 ![Finetuning drawio-2](https://github.com/bala1802/LoRA/assets/22103095/df7ade0c-c739-42cd-90bb-c8ccaf1983cd)
 
+### Prepare dataset for the Fine-tuning
 
+For the purposes of this demonstration, the digit 2 is identified as a specific domain of interest within the dataset. Notably, observations reveal that the performance of the digit 2 is comparatively lower than that of other digits. In preparation for fine-tuning, a specialized dataset is curated, exclusively containing images of the digit 2.
 
 
 
