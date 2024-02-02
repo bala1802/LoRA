@@ -24,3 +24,5 @@ The model training is executed for a single epoch, utilizing the Cross Entropy l
 ### Training Logs
 
 `Epoch 1: 100%|██████████| 6000/6000 [00:31<00:00, 189.28it/s, loss=2.07]`
+
+To prove that the Original weights are not distrubed, they are preserved through cloning them. This preservation facilitates subsequent validation, demonstrating that fine-tuning with Low Rank Adaptation did not induce any alteration to the original weights.
