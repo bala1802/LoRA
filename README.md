@@ -30,3 +30,10 @@ The model training is executed for a single epoch, utilizing the Cross Entropy l
 To prove that the Original weights are not distrubed, they are preserved through cloning them. This preservation facilitates subsequent validation, demonstrating that fine-tuning with Low Rank Adaptation did not induce any alteration to the original weights.
 
 ![alt text](WeightPreservation.drawio.png)
+
+## Model Testing
+
+### Testing Logs
+
+`Testing: 100%|██████████| 1000/1000 [00:05<00:00, 182.07it/s]
+Accuracy : 0.21`
