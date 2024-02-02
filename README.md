@@ -81,9 +81,14 @@ The LoRA_Parameterization model is initialized with two matrices, namely A and B
 
 ![Finetuning drawio-2](https://github.com/bala1802/LoRA/assets/22103095/df7ade0c-c739-42cd-90bb-c8ccaf1983cd)
 
+### Freeze Model's Non-LoRA Parameters
+
+During the fine-tuning stage, a critical approach is employed whereby the original parameters of the model are immutably frozen. Exclusive focus is directed towards the adjustment of parameters introduced by Low Rank Adaptation (LoRA) during the back-propagation process. This meticulous design guarantees that only the LoRA-introduced parameters undergo adaptation, safeguarding the stability and preservation of the original model configuration.
+
 ### Prepare dataset for the Fine-tuning
 
 For the purposes of this demonstration, the digit 2 is identified as a specific domain of interest within the dataset. Notably, [observations](https://github.com/bala1802/LoRA/blob/main/README.md#testing-logs) reveal that the performance of the digit 2 is comparatively lower than that of other digits. In preparation for fine-tuning, a specialized dataset is curated, exclusively containing images of the digit 2.
+
 
 
 
