@@ -101,3 +101,4 @@ Comparitive analysis is conducted to assess the performance of the the digit `2`
 
 ![alt text](comparitive_analysis.png)
 
+The above comparitive analysis' visual representation proves that fine-tuning the model, with the addition of a minimal number of parameters through Low Rank Adaptation (LoRA), results in a notable enhancement in performance for domain-specific tasks.
