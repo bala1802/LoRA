@@ -46,3 +46,6 @@ Accuracy : 0.21`
 
 Prior to initiating the fine-tuning process with the LoRA configuration, a comprehensive examination of the original model's parameter count is conducted.
 
+![image](https://github.com/bala1802/LoRA/assets/22103095/9bc46b3f-269d-42c9-a10c-ad15a6b30c0f)
+
+Total number of parameters: `2,807,010`
