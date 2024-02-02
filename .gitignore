@@ -160,5 +160,3 @@ cython_debug/
 #.idea/
 
 data/
-deprecated_LoRA2.ipynb
-deprecated_LoRA1.ipynb
