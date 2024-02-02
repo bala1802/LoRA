@@ -1,4 +1,4 @@
-![image](https://github.com/bala1802/LoRA/assets/22103095/9e632ef3-36b1-45de-8787-dfc4038db6ec)# LoRA
+# LoRA
 PyTorch implementation demonstrating Low Rank Adaption (LoRA) in Neural Networks, for efficient model compression and fine-tuning on domain specific tasks
 
 ## Purpose
