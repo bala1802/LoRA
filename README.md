@@ -7,14 +7,20 @@ The primary objective of this study is to train a base neural network model and 
 
 ## Dataset
 
-The dataset employed in this investigation is the [MNIST dataset](http://yann.lecun.com/exdb/mnist/), a widely recognized benchmark for image classification tasks in the field of machine learning. MNIST consists of a collection of hand-written digits, encompassing images of digits from 0 to 9, each represented in a grayscale format. The choice of MNIST as the experimental dataset provides a standardized foundation for evaluating the effectiveness of low-rank adaptation techniques in the context of image recognition.
+The chosen dataset for this study is the [MNIST dataset](http://yann.lecun.com/exdb/mnist/). The choice of MNIST as the experimental dataset provides a standardized foundation for evaluating the effectiveness of low-rank adaptation techniques in the context of image recognition.
 
 ## MNIST Model
 
-In this demonstration, a neural network architecture was crafted, encompassing a total of ~2 million parameters meticulously distributed across three linear layers. This architectural configuration was deliberately designed to facilitate a comprehensive exploration of the efficacy of low-rank adaptation techniques within the context of a neural network model with considerable complexity and parameterization.
+The Neural Network architecture utilized for this demonstration comprises 2 million parameters distributed across three linear layers. This architectural configuration was designed to explore the efficacy of low-rank adaptation techniques within the context of a neural network model with considerable complexity and parameterization.
 
 ### Model Summary
 
 ![image](https://github.com/bala1802/LoRA/assets/22103095/be629bc2-f99c-4fc0-a8b1-81c72635ade5)
 
-## 
+## Model Training
+
+The model training is executed for a single epoch, utilizing the Cross Entropy loss function. The chosen optimizer is Adam, configured with a learning rate of 0.001.
+
+### Training Logs
+
+`Epoch 1: 100%|██████████| 6000/6000 [00:31<00:00, 189.28it/s, loss=2.07]`
