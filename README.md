@@ -39,8 +39,6 @@ To prove that the Original weights are not distrubed, they are preserved through
 `Testing: 100%|██████████| 1000/1000 [00:05<00:00, 182.07it/s]
 Accuracy : 0.21`
 
-![image](https://github.com/bala1802/LoRA/assets/22103095/b2f582e8-388c-4295-8477-cde849f27ca1)
-
 ![alt text](Visuals/Wrongly_Predicted_Digits.png)
 
 
